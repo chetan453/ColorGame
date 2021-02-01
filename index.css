@@ -21,7 +21,18 @@
 }
 
 .tile {
-  height: 200px;
+  height: 150px;
   width: 200px;
   background-color: aliceblue;
+  color: white;
+  font-family: 'Cinzel', serif;
+  font-size:35px;
+  text-align: center;
+  padding-top:50px;
+  align-items: center;
+}
+#header-clue{
+  color: rgb(169, 187, 52);
+  text-align: center;
+  background-color: black;
 }
