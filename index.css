@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  background-color: black;
+  color:rgb(51, 98, 96);
 }
 
 #header {
@@ -11,11 +13,15 @@
   justify-content: center;
   align-items: center;
 }
-
+h2{
+  background-color: lightpink;
+}
 #container {
   background-color: black;
   height: 70vh;
-  display: flex;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -31,8 +37,27 @@
   padding-top:50px;
   align-items: center;
 }
+#button{
+  color:cornsilk;
+  height: 25px;
+  width: 50px;
+  align-items: center;
+  justify-content: space-evenly;
+  position:absolute;
+  left:642px;
+}
+
 #header-clue{
   color: rgb(169, 187, 52);
   text-align: center;
   background-color: black;
+}
+#rules{
+  color:grey;
+  background-color: lightpink;
+  align-items:flex-start;
+  border: 0px solid lightpink;
+  height: 30vh;
+  width: 150px;
+  float:right;
 }
